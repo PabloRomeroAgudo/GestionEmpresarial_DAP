@@ -1,0 +1,14 @@
+# Conexión a SQLite
+# db=sqlite
+# driver = org.sqlite.JDBC
+# dsn = jdbc:sqlite:gestionEmpresarial.sqlite
+
+
+# Conexión a MariaDB
+db=mariadb
+driver = org.mariadb.jdbc.Driver
+dsn = jdbc:mariadb://localhost:7706:3306/test
+user = root
+pass = toor
+
+# docker run -d -p 7706:3306 --name test --network bridge -e MARIADB_ROOT_PASSWORD=toor mariadb
